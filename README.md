@@ -57,7 +57,8 @@ You will need:
 
 I've put the 3D Printed case on Cults 3D.
 
-[PSP Consolized Case](https://cults3d.com/en/3d-model/gadget/psp-3000-consolized-case)
+[PSP Consolized 3D Printable Case](https://cults3d.com/en/3d-model/gadget/psp-3000-consolized-case)
+
 I'm charging about U$ 10,00 for the STL Files.
 
 On the future I plan oppening the model and putting it on Thingverse for free, for now its paywalled, sorry about that!

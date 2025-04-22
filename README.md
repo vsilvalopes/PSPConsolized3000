@@ -24,6 +24,8 @@ Some quality of life homebrews, like ChronoSwitch or even the oficial Sony updat
 So update anything that you need, install a permanent CFW, before removing the screen.
 It is possible to use the screen with the case, but it`s a pain, trust me.
 
+I really recomend using the ARK-4 CFW [ARK-4 Wiki}(https://github.com/PSP-Archive/ARK-4/wiki).
+
 # How it Works?
 
 The magic is on the ESP32 module that you will write software on it latter.

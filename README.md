@@ -24,7 +24,7 @@ Some quality of life homebrews, like ChronoSwitch or even the oficial Sony updat
 So update anything that you need, install a permanent CFW, before removing the screen.
 It is possible to use the screen with the case, but it`s a pain, trust me.
 
-I really recomend using the ARK-4 CFW [ARK-4 Wiki}(https://github.com/PSP-Archive/ARK-4/wiki).
+I really recomend using the ARK-4 CFW [ARK-4 Wiki](https://github.com/PSP-Archive/ARK-4/wiki), and there are some very good guides on the PSP Punk Website : [Link](https://www.pspunk.com/)
 
 # How it Works?
 
@@ -32,10 +32,12 @@ The magic is on the ESP32 module that you will write software on it latter.
 The ESP32 does the trick of sending the Power On Signal to the PSP and then sending the signal to enable the video out on the PSP.
 So, whenever you turn on the energy, the ESP32 module is started and takes care of booting the PSP and changing the video output.
 
-Also, it translates all the comands of a Bluetooth controller connected to it, so you can control the PSP using a DualShock 4 controller for example.
-I reccomend using this controller, as it has the most simple pairing method (hold the SHARE + PS)
+Also, the ESP32 module operates like a receiver for popular Bluetooth controllers.
 
-We also have two little boards that does the trick of the Analog Stick inputs on the PSP.
+It works translating all the comands of a Bluetooth controller connected to it and sending it to the PSP, so you can control the PSP using a DualShock 4 controller for example.
+I reccomend using this controller (DualShock 4) , as it has the most simple pairing method (hold the SHARE + PS)
+
+We also have two little boards (Digital Potentiometers) that does the trick of the Analog Stick inputs on the PSP.
 
 # Bill of Materials
 

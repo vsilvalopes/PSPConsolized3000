@@ -116,7 +116,7 @@ And this :
 And that's it, you are done, if you want to test if the module is working correctly, keep it connected to your computer USB, and try to pair it with a controller.
 If everything went right, the controller should pair and give a little vibration feedback. Also, if your ESP32 board has a bluetooth LED, it should light blue, indicating that a controller is connected.
 
-# Building instructions - The Software Part
+# Building instructions - The Hardware Part
 
 :warning: :warning: :warning: You need to know HOW to solder! :warning: :warning: :warning:
 

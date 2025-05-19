@@ -196,7 +196,7 @@ You Should have somenthing like this:
 
 ![image](https://github.com/user-attachments/assets/4e1d3017-73e7-4fbd-9567-f184f0d4aeca)
 
-5- Now, you have to solder the wires of the Analog Stick Board on the Digital Potentiometers, like this
+5- Now, you have to solder the wires of the Analog Stick Board on the Digital Potentiometers and the ESP32, like this
 
 ![Diagrama sem nomeW drawio](https://github.com/user-attachments/assets/105812e1-5496-480a-825d-49b175de1e60)
 

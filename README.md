@@ -84,7 +84,9 @@ Gather all the eletronic materials, like the picture bellow :
 I can't stress this enough, but ignoring it will give you a lot of headaches disassembling everything.
 So, flash your custom firmware, edit the Recovery Menu settings BEFORE dissambling the PSP, it's much easyer doing it with the PSP on it's original form factor, you have been warned!
 
-1- Flash the ESP32 with the provided firmware here, this is an essential part of the build.
+# Building instructions - Flashing the software on the ESP32 
+
+1- For any of this work, you have to flash the ESP32 with the provided firmware here (Folder ESP32 Firmware) this is an essential part of the build.
 
 2- Conect your ESP32 module via USB on your PC, it should apear on the Windows Device Manager like this :
 
@@ -172,17 +174,39 @@ You Should have somenthing like this:
 
 ![image](https://github.com/user-attachments/assets/e129ae3a-94d2-4ba7-88da-e8874974bafb)
 
-
-
-
 # Soldering Part 2 - The Digital Potentiometers
 
+0 - First of all, grab the analog stick from your PSP, even if it is busted you can use it, grab it and dissambly it carrefully, so in the end you have this little piece:
 
+![image](https://github.com/user-attachments/assets/9719b069-d711-45bf-a387-81da0ee672f6)
 
+1- You will need just this piece in the end: 
 
+![image](https://github.com/user-attachments/assets/10db2e99-b177-4374-8695-1ba6ed2d753c)
 
+2- Place a little bit of solder on the golden pads, like this :
 
+![image](https://github.com/user-attachments/assets/5bec912f-86c7-415d-b147-70d7ab2fe6a0)
 
+3- Solder some colored wires with about 15 cm on the pads : 
+
+![image](https://github.com/user-attachments/assets/f8f6a5bd-7a07-4c15-95ea-cea8671850e8)
+
+4- :warning: VERY IMPORTANT! :warning: After the soldering, insulate the analog piece with some tape, If you dont do that, you will get some ghost inputs comming from the analog stick
+
+![image](https://github.com/user-attachments/assets/4e1d3017-73e7-4fbd-9567-f184f0d4aeca)
+
+5- Now, you have to solder the wires of the Analog Stick Board on the Digital Potentiometers, like this
+
+![Diagrama sem nomeW drawio](https://github.com/user-attachments/assets/105812e1-5496-480a-825d-49b175de1e60)
+
+6- On the digital potetiometer boards, you have to bridge the **GND** and **CS** Points on both boards, like this :
+
+![image](https://github.com/user-attachments/assets/104cc971-f003-4dff-a5b6-e19e7ec92cb5)
+
+7- Also, you have to bridge the **VH** on both boards, and the **VL** Points, like this :
+
+![image](https://github.com/user-attachments/assets/e2147a1e-9391-4fd0-b410-b6a1a4cf97da)
 
 
 

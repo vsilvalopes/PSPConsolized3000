@@ -79,8 +79,10 @@ Gather all the eletronic materials, like the picture bellow :
 
 # Building instructions - The Software Part
 
-:warning: :warning: :warning: First of all, CONFIGURE EVERYTHING on your PSP, before doing anything, I can't stress this enough, but ignoring it will give you a lot of headaches disassembling everything.
-So, flash your custom firmware, edit the Recovery Menu settings BEFORE dissambling the PSP, it's much easyer doing it with the PSP on it's original form factor, you have been warned! :warning: :warning: :warning:
+:warning: :warning: :warning: First of all, CONFIGURE EVERYTHING on your PSP, before doing anything.:warning: :warning: :warning:
+
+I can't stress this enough, but ignoring it will give you a lot of headaches disassembling everything.
+So, flash your custom firmware, edit the Recovery Menu settings BEFORE dissambling the PSP, it's much easyer doing it with the PSP on it's original form factor, you have been warned!
 
 1- Flash the ESP32 with the provided firmware here, this is an essential part of the build.
 
@@ -116,13 +118,23 @@ And this :
 And that's it, you are done, if you want to test if the module is working correctly, keep it connected to your computer USB, and try to pair it with a controller.
 If everything went right, the controller should pair and give a little vibration feedback. Also, if your ESP32 board has a bluetooth LED, it should light blue, indicating that a controller is connected.
 
-# Building instructions - The Hardware Part
+# Some warning, Soldering is needed!
 
 :warning: :warning: :warning: You need to know HOW to solder! :warning: :warning: :warning:
 
 Despite not that dificult and almost risk free for the PSP, you need to have some sort of soldering experience. 
 
-There are LOTS of Youtube tutorials on it, on this guide I will only discuss the best aproach on builind that worked for ME! 
+There are LOTS of Youtube tutorials on it, on this guide I will only discuss the best aproach on builing that worked for ME! 
+
+# Soldering Part 1 - The FPC connectors
+
+0 - So in this part, you are going to solder the FPC points to the ESP32 Board. 
+
+This part of the soldering, handles all the inputs on the PSP, like turning it on, changing the video out, and the buttons on the controller itself.
+
+This is the basic eletronic diagram of the soldering needed, and the respective pins on the FPC boards and the ESP32 :
+
+![Diagrama sem nome drawio](https://github.com/user-attachments/assets/335b181c-4ec4-4813-bc4e-7828998fc731)
 
 1- Place the components on the positions bellow, Attention on the orientation of the circuits, it will make your soldering job easier:
 
@@ -159,6 +171,11 @@ You Should have somenthing like this:
 6- At the end, everything should look like this:
 
 ![image](https://github.com/user-attachments/assets/e129ae3a-94d2-4ba7-88da-e8874974bafb)
+
+
+
+
+# Soldering Part 2 - The Digital Potentiometers
 
 
 

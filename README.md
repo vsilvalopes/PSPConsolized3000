@@ -251,13 +251,76 @@ So you have to put the ribbon cable more to the right side, like the picture bel
 
 ![image](https://github.com/user-attachments/assets/f1fdeef7-e30e-4c9a-9610-537642aaf345)
 
+9- Bonus - If you have a Screen working, do a power on test, it should go like this:
+The screen should turn on like a normal PSP boot, and after some seconds it will go black, meaning that the video out of the PSP was swichted sucessfully to the video out:
+Be EXTRA CAREFULL IF DOING THIS, the back of the PSP screen is full of metal, and if not carefull, you can fry the PSP
 
+![image](https://github.com/user-attachments/assets/ceb33fe9-b8ad-4933-9dce-5725e2e9585e)
+
+10 - After that, is time to organize the Ribbon cables and close the case, take your time doing this, put the top conver, but DONT SCREW IT YET.
+Take a few tests with the buttons, assure that the ribbon cables stayed in place, and then proced to close everything up.
+
+11- Congratulations! You now have your PSP Consolized ! Enjoy it !
+
+![IMG_20250518_152718](https://github.com/user-attachments/assets/5bc9aadd-b39c-4d3c-a757-502133dfd401)
 
 # FAQ
 
+**1- How do I hook it up on my TV?**
 
+Use the oficial PSP Component Cable, or the ones that are on AliExpress.
+If you use a scaller like the OSSC or the Retrotink (5X/4K) the oficial cables are the way to go, they have a good shielding
 
+**2- I hooked it up on my Scaller (OSSC/Retrotink) and the image is very small, what should I do?**
 
+Go to the Woobling Pixels Channel on YouTube, see one of his video tutorials on how to get the best image of the PSP on TV: [OSSC](https://www.youtube.com/watch?v=viw0nTZRFmA) and [RetroTink 5x](https://www.youtube.com/watch?v=NowPKdM4KLQ)
+
+**3- Why the PSP resolution is one on the main menu, and another in Game?**
+
+I have no idea, ask Sony and tell me your discovery! Jokes asside, I solved this on my setup simply changing profiles.
+I start with the Wii profile for Wide, and after the game start, I switch to the optimized profile for PSP, based on the Woobling Pixels channel.
+
+Be warned that the adjustment on for the games, messes up with the menu aspect ratio, the point is, for my understanding, we cant have a single profile that suits the menu resolution and in game resolution
+
+**4 - Can you do this for the PSP 2000**
+
+No and I don't have any plans on doing it.
+Use the DavidXGames video that I linked there and have fun.
+
+**5 - Why are you charging for the STL Files?**
+
+Because I spent a LOT of money on PLA filament to get it right, I've produced more than 30 cases to achieve what you are seeing here.
+So, for a limited time I'm charging for the STL files, so I can recoup some of the money spent on it.
+In the near future I plan relasing the Fusion 360 files and the STLs for free.
+
+**6 - Why the PSP asks me for the date and time every single boot?**
+
+Due to the long age of this devices, the capacitor clock on the motherboard is probably dead.
+So it will ask you every single time for it, I did not find any workarround on this.
+
+**7 - The boot time is somewhat long right?**
+
+Yes, it takes about one minute for you to see something on the tv screen, this is because the boot process is handled by the ESP32.
+
+What it does is to send the power on signal to PSP, wait a few seconds and then change to the PSP video out.
+Essentially what the ESP32 is doing is holding the screen key on the PSP , so it can change to the TV out.
+
+**8 - Help ! I Was playing furiosly, and the screen went black**
+Just hold R3 on your controler, you probably tapped R3 while playing, and this button enables/disables the video out.
+Also, if you reboot the PSP, you have to hold R3 to bring the screen back again.
+
+**9 - The second analog stick is sending commands on the Screen, is this right?**
+
+Yes, its a expect behavior of the bluepad project that is running on the ESP32, I can't do anything on it.
+
+# Acknowledgments and Thanks 
+
+1- To DavidXGames to bring this project to everyone on the retro community, without him nothing of this would be possible
+2- My Wife for giving me the 3D printer on Christimas and fuelling my retrogaming dreams.
+3- My Kids, they are the most messy and dedicated QA testers that I could have.
+4- My fellow friends of the "Recapeiros" WhatsApp Group" those guys gave me the boost to finish this little project
+
+If you want to contact me for anything, you can find my profile on Reddit (https://www.reddit.com/user/vsilvalopes/) or drop me an email on : vsilvalopes at gmail.com
 
 
 

@@ -1,4 +1,4 @@
-# PSPConsolized3000
+# PSPConsolized 3000
 
 This is a simple page to unite the information on how to do a PSP Consolized, using a PSP 3000 as a base.
 
@@ -207,6 +207,18 @@ You Should have somenthing like this:
 7- Also, you have to bridge the **VH** on both boards, and the **VL** Points, like this :
 
 ![image](https://github.com/user-attachments/assets/e2147a1e-9391-4fd0-b410-b6a1a4cf97da)
+
+8- At the end, everything in place, have to look like this :
+
+![image](https://github.com/user-attachments/assets/1fe9f2b3-b680-4cc0-9231-6c330acf10e2)
+
+8-And the soldering part is done! Now let's go the finishing touches
+
+# Finishing up - Ribon cables and the PSP Motherboard
+
+0- Now we are on the finish line, we have to put the ribbon cables, and give power to the PSP
+
+
 
 
 

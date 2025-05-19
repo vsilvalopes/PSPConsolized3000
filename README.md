@@ -306,6 +306,7 @@ What it does is to send the power on signal to PSP, wait a few seconds and then 
 Essentially what the ESP32 is doing is holding the screen key on the PSP , so it can change to the TV out.
 
 **8 - Help ! I Was playing furiosly, and the screen went black**
+
 Just hold R3 on your controler, you probably tapped R3 while playing, and this button enables/disables the video out.
 Also, if you reboot the PSP, you have to hold R3 to bring the screen back again.
 

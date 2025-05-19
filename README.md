@@ -82,6 +82,13 @@ So, flash your custom firmware, edit the Recovery Menu settings BEFORE dissambli
 
 1- Flash the ESP32 with the provided firmware here, this is an essential part of the build.
 
+2- Conect your ESP32 module via USB on your PC, it should apear on the Windows Device Manager like this :
+
+![image](https://github.com/user-attachments/assets/dba1cc99-e9fe-429e-9937-0570bdd6b0aa)
+
+Look for the "Silicon Labs CP210x USB to UART Bridge(COMx)" device, where X is the COM port on your PC.
+Take note of the COM port number, you will use it later.
+
 2- To do so, use the "Flash_download_tool_3.9.2" provided on this repository (sorry but Windows only instructions)
 
 ![image](https://github.com/user-attachments/assets/dcf0d1da-46cd-4a17-8a34-8d55c9c9a23a)
@@ -91,7 +98,10 @@ So, flash your custom firmware, edit the Recovery Menu settings BEFORE dissambli
 
 ![image](https://github.com/user-attachments/assets/705abefc-80f4-4afc-aea9-f39a477a9fd1)
 
-2.2 
+2.2 After that, you have to load the firmware, so you can write it on the ESP32 Module, so configure it like this:
+
+![image](https://github.com/user-attachments/assets/3af09dd8-1783-41dd-ba98-c08d647237d3)
+
 
 
 

@@ -95,7 +95,6 @@ Take note of the COM port number, you will use it later.
 
 ![image](https://github.com/user-attachments/assets/dcf0d1da-46cd-4a17-8a34-8d55c9c9a23a)
 
-
 3.1 When openning the "Flash_download_tool_3.9.2" set it like the picture bellow:
 
 ![image](https://github.com/user-attachments/assets/705abefc-80f4-4afc-aea9-f39a477a9fd1)
@@ -141,21 +140,26 @@ I used some Kapton tape, to isolate the botton of the components
 
 ![image](https://github.com/user-attachments/assets/5ef31a34-1886-487d-a943-f131de0b2f55)
 
-4- Wire up the pins of the **FPC 3** to the ESP32, like this 
+4- Wire up the pins of the **FPC 3** to the ESP32, like this:
 
 ![image](https://github.com/user-attachments/assets/649c39fb-d14a-4d22-86c4-8fb546ee6105)
 
-You Should have somenthing like this :
+You Should have somenthing like this:
 
 ![image](https://github.com/user-attachments/assets/a9514026-98c6-4584-bcd7-43f7a2089cab)
 
-5- Wire up the pins of the **FPC 2** to the ESP32, like this 
+5- Wire up the pins of the **FPC 2** to the ESP32, like this:
 
 ![image](https://github.com/user-attachments/assets/91f00150-d0bd-4c98-923c-c031f7e48d40)
 
-5- Wire up the pins of the **FPC 1** to the ESP32, like this 
+5- Wire up the pins of the **FPC 1** to the ESP32, like this:
 
 ![image](https://github.com/user-attachments/assets/668930b4-83bf-4cce-befc-1cc148a96ec7)
+
+6- At the end, everything should look like this:
+
+![image](https://github.com/user-attachments/assets/e129ae3a-94d2-4ba7-88da-e8874974bafb)
+
 
 
 

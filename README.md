@@ -214,9 +214,46 @@ You Should have somenthing like this:
 
 8-And the soldering part is done! Now let's go the finishing touches
 
-# Finishing up - Ribon cables and the PSP Motherboard
+# Finishing up - Ribon cables, Power Supply and the PSP Motherboard
 
 0- Now we are on the finish line, we have to put the ribbon cables, and give power to the PSP
+
+1- The diagram of powering up the devices, is like this :
+
+![psp consolized6 drawio](https://github.com/user-attachments/assets/41bd92d5-0c16-47f2-8ab7-1db771b72ae7)
+
+2- Put the ribbon cables on the shell FPC boards, like this : 
+
+![image](https://github.com/user-attachments/assets/073786b7-a21e-40e9-9ecb-9d7dd823f805)
+
+3 - Now, put the motherboard on place, and conect the Ribon cables from the FPC boards, on their respective connectors :
+
+![IMG_20250519_174139X](https://github.com/user-attachments/assets/c2b1e977-d81f-444b-be39-556a6359fe75)
+
+4- Take an special attention on the **FPC 3 Ribbon cable**, if you look, you will see that this connector has 11 pins, and the Ribbon cabble only 10 Pins.
+So you have to put the ribbon cable more to the right side, like the picture bellow, one pin will be out of the connector:
+
+![image](https://github.com/user-attachments/assets/91bd260f-7bdb-42b5-9a24-ca04f81f5938)
+
+5- Now, put with everything in place, screw the motherboard on the case on the points indicated:
+
+![image](https://github.com/user-attachments/assets/7abbf546-eb6c-4c8f-b216-107ed6a9e31a)
+
+6- The final touch is putting the Analog Stick board on place, put a small double sided tape on the back : 
+
+![image](https://github.com/user-attachments/assets/46323849-b2ea-4ec1-acd4-995797c63cbf)
+
+7- And stick it in this position on the PSP Motherboard :
+
+![image](https://github.com/user-attachments/assets/6f617b9a-d77e-4e61-bc97-82b0fd3db9de)
+
+8 - And its done! Everthyng should look like this when finished :
+
+![image](https://github.com/user-attachments/assets/f1fdeef7-e30e-4c9a-9610-537642aaf345)
+
+
+
+# FAQ
 
 
 

@@ -316,9 +316,13 @@ Yes, its a expect behavior of the bluepad project that is running on the ESP32, 
 # Acknowledgments and Thanks 
 
 1- To DavidXGames to bring this project to everyone on the retro community, without him nothing of this would be possible
-2- My Wife for giving me the 3D printer on Christimas and fuelling my retrogaming dreams.
+
+2- My Wife for giving me the 3D printer as a gift on Christimas and fuelling my retrogaming dreams.
+
 3- My Kids, they are the most messy and dedicated QA testers that I could have.
+
 4- My fellow friends of the "Recapeiros" WhatsApp Group" those guys gave me the boost to finish this little project
+
 
 If you want to contact me for anything, you can find my profile on Reddit (https://www.reddit.com/user/vsilvalopes/) or drop me an email on : vsilvalopes at gmail.com
 

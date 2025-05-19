@@ -55,6 +55,8 @@ You will need:
 
 [01 Flex Cable, 15 cm, 0.5 mm pitch and 14 Pins](https://pt.aliexpress.com/item/1005002468369055.html?spm=a2g0o.order_detail.order_detail_item.5.60974c7fMLkBF4&gatewayAdapt=glo2bra) (Forward direction)
 
+[Micro Slide Switch SS12F44 3mm](https://www.aliexpress.com/item/1005003938856402.html?channel=twinner )
+
 [01 USB-C Conector](https://pt.aliexpress.com/item/1005006047462864.html?spm=a2g0o.order_list.order_list_main.60.3432caa4Qj0sbo&gatewayAdapt=glo2bra)
 
 # 3D Printed Case
@@ -67,7 +69,30 @@ I'm charging about U$ 10,00 for the STL Files.
 
 On the future I plan oppening the model and putting it on Thingverse for free, for now its paywalled, sorry about that!
 
-# Building Instructions
+# Materials reference
+
+Gather all the materials, like the picture bellow : 
+
+![IMG_20250518_120539-x](https://github.com/user-attachments/assets/ae588d7e-1822-4060-a11f-fc57961f7d2b)
+
+# Builind instructions
+
+:warning: :warning: :warning: First of all, CONFIGURE EVERYTHING on your PSP, before doing anything, I can't stress this enough, but ignoring it will give you a lot of headaches disassembling everything.
+So, flash your custom firmware, edit the Recovery Menu settings BEFORE dissambling the PSP, it's much easyer doing it with the PSP on it's original form factor, you have been warned! :warning: :warning: :warning:
+
+1- Flash the ESP32 with the provided firmware here, this is an essential part of the build.
+
+2- To do so, use the "Flash_download_tool_3.9.2" provided on this repository (sorry but Windows only instructions)
+
+![image](https://github.com/user-attachments/assets/dcf0d1da-46cd-4a17-8a34-8d55c9c9a23a)
+
+
+2.1 When openning the "Flash_download_tool_3.9.2" set it like the picture bellow:
+
+![image](https://github.com/user-attachments/assets/705abefc-80f4-4afc-aea9-f39a477a9fd1)
+
+2.2 
+
 
 
 
